@@ -20,4 +20,7 @@ class StudentController extends Controller
     public function restore($id){
        Student::where('id', $id)->restore();
     }
+    public function force_delete($id){
+        Student::where('id', $id)->forceDelete();
+    }
 }
