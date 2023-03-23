@@ -5,5 +5,7 @@
 
 - Seeder giúp tiết kiệm thời gian và công sức khi phát triển ứng dụng bằng cách tự động tạo các bản ghi giả lập, thay vì phải thủ công tạo các bản ghi này trong quá trình kiểm thử hoặc phát triển.
 
+# lệnh chạy seeder kèm ví dụ
+`php artisan make:seeder PostTableSeeder`
 # lệnh chạy seeder
  `php artisan db:seed`
